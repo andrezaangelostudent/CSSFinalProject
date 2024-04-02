@@ -1,0 +1,267 @@
+/* change the margin and the padding for all the page */
+* {
+    margin: 0;
+    padding: 
+    0;
+}
+
+/*change the position, height, width and margin*/
+.container
+{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: -70px;
+}
+
+
+/*change size, position, background color, border*/
+.box {
+    max-width: 600px;
+    width: 400px;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 
+    1px 1px 10px rgba(0,0,0,0.1),
+    -1px -1px 10px rgba(0,0,0,0.5);
+
+}
+
+/*change font, font style, text style*/
+.box_title
+{
+    font-family: "Cormorant Upright", serif;
+    letter-spacing: 2px;
+    font-size: 1.9em;
+    text-shadow: 1px 1px 2px rgb(97, 95, 95);
+    margin: 20px;
+    padding-top: 40px;
+}
+
+
+/*change font, weight, text style*/
+label
+{
+    font-family: "Cormorant Upright", serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/*change width, position, border*/
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid  #DDCFC5;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+
+
+
+/*change position, background color, border*/
+input[type="submit"] {
+    margin: 0 auto ;
+    background-color: #103a72;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+/*change background color*/
+input[type="submit"]:hover {
+    background-color: #8d8783;
+}
+
+
+/* change the width, height and backgroung color of everything that is inside the nav, keep the nav bar fixed*/
+.header {
+    width: 100%;
+    background-color: #2C2346;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px;
+        height: 15vh;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+
+            
+}
+
+/*change position, text color, font size, font style, border*/
+.logo a {
+    padding: 10px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    color: #C4BAC2;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 
+    -2px -2px 10px #d2bdbd,
+    2px 2px 10px #fff;
+}
+
+/* Hover effect for the logo */
+.logo a:hover {
+    transform: scale(1.2);
+    text-shadow: -1px -1px 1px #fff;
+}
+
+/*change position*/
+.menu 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+/*change position*/
+.menu li 
+{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+
+/* change the padding, position, remove the decoration of the text and change the color */
+ .menu li a {
+    line-height: 100px;
+    text-decoration: none;
+    color:white;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+/*change style, border*/
+.menu a:hover 
+{
+    letter-spacing: 2px;
+    border-bottom: 2px solid #fff;
+    border-radius: 5px;
+}
+
+
+/*change background color, change font, style and size of font, color of the font and position */
+.text9 {
+    font-family: "Cormorant Upright", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+    display: flex;
+    text-align: center;
+    padding-left: 50px;
+    color: rgb(38, 39, 59);
+    text-align: center;
+    background-color: #DDCFC5;
+    padding-top: 100px; 
+
+}
+
+
+/*change font, style and size of font, color of the font and position */
+.text10 {
+    font-family: "Cormorant Upright", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 35px;
+    display: flex;
+    padding-left: 700px;
+    color: rgb(38, 39, 59);
+    margin-top: -400px; 
+    position: relative;
+
+}
+
+
+/*change the background color and position */
+.donate {
+    padding-bottom: 1px; 
+    position: relative;
+    padding-left: 50px;
+    background-color:  #DDCFC5;
+    color: white;
+    padding-top: 50px; 
+    border: none;
+    border-radius: 10px;
+
+}
+
+
+/*change background color, change font, style and size of font, color of the font and position */
+footer {
+    background-color:rgb(38, 39, 59);
+    font-family: "Cormorant Upright", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px; 
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.dnt {
+    margin: 10px;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    background-color:  #DDCFC5;
+    color: white;
+}
+
+.dnt:hover {
+    background-color: #E74C3C;
+}
+
+/*create a hover effect with opacity*/
+.image1:hover, .group:hover , .volunteer:hover {
+    transform: scale(1.1);
+    box-shadow: -5px -5px 10px #000;
+    cursor: pointer;
+}
+.toogle
+{
+    display: none;
+}
+
+
+ /*create the responsive design for bigger screens, so when the width is between 769px and 1200px, the content will be displayed
+   in a responsive view */
+   @media only screen and (max-width: 860px) {
+    
+    /*change the width */
+    
+
+}

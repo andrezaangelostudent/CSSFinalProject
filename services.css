@@ -1,0 +1,214 @@
+
+/*edit the height*/
+body {
+    height: 100vh;
+}
+
+/*edit the padding, margin and size*/
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*change the font family*/
+::placeholder {
+    font-family: "Roboto", sans-serif;
+}
+
+/*change the position, width, height and margin*/
+.container {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: -70px;
+}
+
+/*change the width, height, position, color, backgroung color, border and size*/
+.box {
+    max-width: 700px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px auto;
+    background-color: rgba(20, 22, 57, 0.9);
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 
+    0 10px 20px rgba(0, 0, 0, 0.1),
+    0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*change the font, style of the font, font size, margin*/
+.box_title {
+    font-family: "Cormorant Upright", serif;
+    letter-spacing: 2px;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px rgb(97, 95, 95);
+    margin-bottom: 30px;
+}
+
+/*change the font size*/
+.box p{
+    font-size: 2.2rem;
+}
+
+/*change the font size*/
+.box li{
+    font-size: 1.8rem;
+}
+
+/*change the font, weight, text style*/
+label {
+    font-family: "Cormorant Upright", serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/*change the width, margin, border and size*/
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #9e74a1;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/*change the margin, background, color, border*/
+input[type="submit"] {
+    margin: 0 auto ;
+    background-color: #103a72;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+/*change background color*/
+input[type="submit"]:hover {
+    background-color: #8d8783;
+}
+
+/*change the width, background color, position, height*/
+.container2 {
+    width: 100%;
+    background-color: rgba(22, 11, 50, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    height: 15vh;
+}
+
+/*change the position, color, text color, size, font and style*/
+.logo a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    color: #C4BAC2;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+}
+
+/*create the hover effect so it increases the size and creates the shadow when hovered*/
+.logo a:hover {
+    transform: scale(1.3);
+    text-shadow: -1px -1px 1px #fff;
+}
+
+/*change position*/
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+/*change position*/
+.menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+
+/*change position, color, font size*/
+.menu li a {
+    line-height: 100px;
+    text-decoration: none;
+    color:white;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+/*create the space, border*/
+.menu a:hover {
+    letter-spacing: 2px;
+    border-bottom: 2px solid #fff;
+    border-radius: 5px;
+}
+
+/*change background, font, color, font size, position*/
+footer {
+    background-color:rgb(38, 39, 59);
+    font-family: "Cormorant Upright", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px; 
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/*change position, border, font effect, font style, backgrounf color and text color*/
+.dnt {
+    margin: 10px;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    background-color: #FA8072;
+    color: white;
+}
+
+/*background color*/
+.dnt:hover {
+    background-color: #E74C3C;
+}
+
+
+/*change the background color and position */
+.donate {
+    padding-bottom: 1px; 
+    position: relative;
+    padding-left: 50px;
+    background-color: #FA8072;
+    color: white;
+    padding-top: 50px; 
+    border: none;
+    border-radius: 10px;
+
+}

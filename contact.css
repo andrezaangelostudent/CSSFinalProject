@@ -1,0 +1,213 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Oxanium:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Resetting default styles for all elements */
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Styling placeholder text */
+::placeholder {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: -70px; /* Adjusting for header */
+}
+
+/* Styling for a box container */
+.box {
+    max-width: 600px;
+    width: 400px;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 
+    1px 1px 10px rgba(0,0,0,0.1),
+    -1px -1px 10px rgba(0,0,0,0.5);
+}
+
+/* Styling for box title */
+.box_title {
+    font-family: "Cormorant Upright", serif;
+    letter-spacing: 2px;
+    font-size: 1.9em;
+    text-shadow: 1px 1px 2px rgb(97, 95, 95);
+    padding-top: 40px;
+}
+
+/* Label styling */
+label {
+    font-family: "Cormorant Upright", serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Input, select, textarea styling */
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #9e74a1;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    margin: 0 auto ;
+    background-color: #103a72;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type="submit"]:hover {
+    background-color: #8d8783;
+}
+
+
+
+/* change the width, height and backgroung color of everything that is inside the nav */
+.header {
+    width: 100%;
+    background-color: #2C2346;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px;
+        height: 15vh;
+        
+
+            
+}
+
+/* Styling for the logo in the navigation */
+.logo a {
+    padding: 10px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    color: #C4BAC2;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 
+    -2px -2px 10px #d2bdbd,
+    2px 2px 10px #fff;
+}
+
+/* Hover effect for the logo */
+.logo a:hover {
+    transform: scale(1.2);
+    text-shadow: -1px -1px 1px #fff;
+}
+
+/* Styling for the menu */
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+/* Styling for menu items */
+.menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+
+/* Styling for menu item links */
+.menu li a {
+    line-height: 100px;
+    text-decoration: none;
+    color:white;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect for menu item links */
+.menu a:hover {
+    letter-spacing: 2px;
+    border-bottom: 2px solid #fff;
+    border-radius: 5px;
+}
+
+/* Footer styling */
+footer {
+    background-color:#2C2346;
+    font-family: "Cormorant Upright", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px; 
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* Styling for a button */
+.dnt {
+    margin: 10px;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+    color: #8d8783;
+}
+
+/* Hover effect for the button */
+.dnt:hover {
+    background:  #8d8783;
+    color: #fff;
+}
+
+/* Styling for the logo */
+.logo {
+    color: rgb(196, 186, 194);
+} 
+
+/*change the background color and position */
+.donate {
+    padding-bottom: 1px; 
+    position: relative;
+    padding-left: 50px;
+    background-color: #FA8072;
+    color: white;
+    padding-top: 50px; 
+    border: none;
+    border-radius: 10px;
+
+}
